@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5A381DED305F6B380071899F /* Real-Time Communication Patterns.md in Resources */ = {isa = PBXBuildFile; fileRef = 5A381DEC305F6B310071899F /* Real-Time Communication Patterns.md */; };
 		9C1AFC5426C2767D0009636E /* FantasqueSansMono-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 9C1AFC5326C2767D0009636E /* FantasqueSansMono-Regular.otf */; };
 		9C1AFC5826C284910009636E /* StartUp.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9C1AFC5726C284910009636E /* StartUp.storyboard */; };
 		9C39C0D926B9C64E007A318E /* DataModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C39C0D826B9C64E007A318E /* DataModels.swift */; };
@@ -21,6 +22,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5A381DEC305F6B310071899F /* Real-Time Communication Patterns.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "Real-Time Communication Patterns.md"; sourceTree = "<group>"; };
 		9C1AFC5326C2767D0009636E /* FantasqueSansMono-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "FantasqueSansMono-Regular.otf"; sourceTree = "<group>"; };
 		9C1AFC5526C276870009636E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9C1AFC5726C284910009636E /* StartUp.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = StartUp.storyboard; sourceTree = "<group>"; };
@@ -72,6 +74,7 @@
 			children = (
 				9C39C0D826B9C64E007A318E /* DataModels.swift */,
 				9C39C0DA26B9C781007A318E /* LittleJohnModel.swift */,
+				5A381DEC305F6B310071899F /* Real-Time Communication Patterns.md */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -175,6 +178,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9C1AFC5426C2767D0009636E /* FantasqueSansMono-Regular.otf in Resources */,
+				5A381DED305F6B380071899F /* Real-Time Communication Patterns.md in Resources */,
 				9C1AFC5826C284910009636E /* StartUp.storyboard in Resources */,
 				9CC9E05426C50CCF00E2B42E /* LICENSE in Resources */,
 				9CA9D30B26B6DFBF00F9C822 /* Assets.xcassets in Resources */,

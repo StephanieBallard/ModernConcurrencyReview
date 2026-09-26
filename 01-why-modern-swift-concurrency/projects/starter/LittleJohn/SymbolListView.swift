@@ -76,6 +76,14 @@ struct SymbolListView: View {
         Text(lastErrorMessage)
       })
       .padding(.horizontal)
+      .task { // similarly to onAppear(_:), is called when the view appears onscreen
+        guard symbols.isEmpty else { return }
+        do {
+          symbols = try await model.availableSymbols()
+        } catch {
+          lastErrorMessage = error.localizedDescription
+        }
+      }
       .navigationDestination(isPresented: $isDisplayingTicker) {
         TickerView(selectedSymbols: Array(selected).sorted())
           .environmentObject(model)
